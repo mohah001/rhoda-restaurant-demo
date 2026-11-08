@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rhoda Vemoauz Restaurant | Demo</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#fffaf3;color:#29221d}
+header{background:#241810;color:white;padding:20px;text-align:center}
+header h1{color:#e8b45c;font-size:27px}
+nav{background:#35251b;padding:14px;text-align:center}
+nav a{color:white;text-decoration:none;margin:10px;font-size:14px}
+.hero{padding:85px 20px;text-align:center;color:white;
+background:linear-gradient(135deg,#54351f,#20140e)}
+.hero h2{font-size:36px;margin-bottom:15px}
+.hero p{font-size:17px;line-height:1.6}
+.btn{display:inline-block;background:#d89c43;color:#241810;
+padding:13px 24px;text-decoration:none;border-radius:7px;
+margin-top:22px;font-weight:bold}
+section{padding:45px 20px;text-align:center}
+h2{color:#75451e;margin-bottom:18px}
+.about{max-width:700px;margin:auto;line-height:1.8}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+gap:20px;max-width:950px;margin:25px auto}
+.food{background:white;padding:25px;border-radius:12px;
+box-shadow:0 3px 12px #00000012}
+.food .emoji{font-size:42px}
+.food h3{margin:12px 0}
+.price{color:#a56820;font-weight:bold;margin-top:10px}
+.note{font-size:12px;color:#806b58;margin-top:15px}
+.contact{background:#35251b;color:white}
+.contact h2{color:#e8b45c}
+footer{background:#20140e;color:white;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🍽️ Rhoda Vemoauz Restaurant</h1>
+<p>Good Food • Great Moments</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+<h2>Welcome to Our Restaurant</h2>
+<p>Discover delicious meals and enjoy
+wonderful dining experiences.</p>
+<a href="#menu" class="btn">Explore Our Menu</a>
+</div>
+
+<section id="about">
+<h2>About Our Restaurant</h2>
+<div class="about">
+<p>Welcome to Rhoda Vemoauz Restaurant!
+We aim to give our customers a welcoming
+place to enjoy delicious food and memorable moments.</p>
+</div>
+</section>
+
+<section id="menu">
+<h2>Our Food Menu</h2>
+<p>Explore some of our featured dishes.</p>
+
+<div class="menu">
+<div class="food">
+<div class="emoji">🍗</div>
+<h3>Chicken & Chips</h3>
+<p>Delicious chicken served with crispy chips.</p>
+<div class="price">Sample: KSh 650</div>
+</div>
+
+<div class="food">
+<div class="emoji">🍛</div>
+<h3>Beef Stew</h3>
+<p>Tasty beef stew served with your choice of side.</p>
+<div class="price">Sample: KSh 450</div>
+</div>
+
+<div class="food">
+<div class="emoji">🍚</div>
+<h3>Pilau</h3>
+<p>Deliciously spiced rice.</p>
+<div class="price">Sample: KSh 350</div>
+</div>
+
+<div class="food">
+<div class="emoji">🥤</div>
+<h3>Fresh Juice</h3>
+<p>Refreshing fruit juice.</p>
+<div class="price">Sample: KSh 150</div>
+</div>
+</div>
+
+<p class="note">DEMO ONLY: Menu items and prices are examples.
+Actual restaurant details will be added after approval.</p>
+</section>
+
+<section id="contact" class="contact">
+<h2>Visit or Contact Us</h2>
+<p>We would love to hear from you!</p>
+<p style="margin-top:15px">📍 Restaurant location to be confirmed</p>
+<p>📞 Official contact to be added</p>
+<a href="#contact" class="btn"
+onclick="alert('Restaurant WhatsApp number will be connected after approval.')">
+Contact Us on WhatsApp
+</a>
+</section>
+
+<footer>
+<p>© 2026 Rhoda Vemoauz Restaurant</p>
+<p>Website concept by Benjah ICT Hub</p>
+</footer>
+
+</body>
+</html>
